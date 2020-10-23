@@ -59,5 +59,5 @@ python generator.py <number of lines in file> <file name>
 To see the output file run this command:
 
 ```
-hdfs dfs -text lw-output/part-r-00000
+hdfs dfs -text output/part-r-00000
 ```
