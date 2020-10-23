@@ -28,7 +28,7 @@ public class BrowserCountMapper extends Mapper<LongWritable, Text, Text, IntWrit
         if (userAgent.getBrowser() == Browser.UNKNOWN) {
             context.getCounter(CounterType.MALFORMED).increment(1);
         } else {
-            //setting browser name
+            //setting browser name and count 1
             word.set(userAgent.getBrowser().getName());
             context.write(word, one);
         }
