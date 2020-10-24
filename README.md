@@ -5,11 +5,11 @@ Program which count how many users of different browsers were detected in logs. 
 99.168.127.53 - - [20/May/2010:07:34:13 +0100] "GET /media/img/m-inact.gif HTTP/1.1" 200 2571 "http://www.example.com/" 
 ```
 
-###Output format: 
+### Output format: 
 
 SequenceFile with Snappy encoding 
 
-###Report includes:
+### Report includes:
 
 - ZIP-ed src folder with implementation
 - Screenshot of successfully executed tests
